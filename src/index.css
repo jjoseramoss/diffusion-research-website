@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --color-canvas: #fafaf8;
+  --color-ink: #171717;
+  --color-accent: #f25623;
+  --color-charcoal: #4d4d4d;
+  --color-line: #dedede;
+}
+
+body {
+  background-color: var(--color-canvas);
+}
